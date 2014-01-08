@@ -1,3 +1,18 @@
+AMAZON LINUX DEPENDENCIES
+    yum install          \
+    xfsprogs             \
+    perl                 \
+    perl-File-Slurp      \
+    perl-Net-Amazon-EC2  \
+    perl-libwww-perl     \
+    perl-Digest-HMAC     \
+    perl-Params-Validate \
+    perl-XML-Simple      \
+    perl-Moose           \
+    perl-Crypt-SSLeay    \
+    perl-Time-HiRes      \
+    perl-DateTime-Locale
+
 NAME
     ec2-consistent-snapshot - Create EBS snapshots on EC2 w/consistent
     filesystem/db
